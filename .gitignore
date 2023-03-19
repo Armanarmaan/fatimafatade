@@ -17,6 +17,12 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.firebaserc
+firebase.json
+package-lock.json
+package.json
+hosting*
+
 
 npm-debug.log*
 yarn-debug.log*
