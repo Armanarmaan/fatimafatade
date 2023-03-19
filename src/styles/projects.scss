@@ -1,0 +1,167 @@
+.projects {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  .column-project {
+    display: flex;
+    gap: 20px;
+
+    .page-item {
+      img {
+        width: 100%;
+        vertical-align: middle;
+      }
+    }
+  }
+  .column-project.wide {
+    .page-item {
+      max-width: 100%;
+    }
+  }
+  .column-project.taller {
+    .page-item {
+      max-width: 33%;
+    }
+  }
+  .column-project.tall {
+    .page-item {
+      max-width: 25%;
+    }
+  }
+  .row-project {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
+.projects.mobile {
+  display: none;
+}
+
+.projects.inouterspace {
+  .column-project {
+    display: flex;
+    flex-direction: column;
+    .page-item {
+      max-width: 100%;
+    }
+  }
+  .column-project.tall {
+    max-width: 30%;
+  }
+  .column-project.taller {
+    max-width: 37%;
+  }
+}
+
+.projects.esmod {
+  .column-project {
+    justify-content: center;
+  }
+  .column-project.tall {
+    .page-item {
+      max-width: 30%;
+    }
+  }
+  .column-project.taller {
+    .page-item {
+      max-width: 43%;
+    }
+  }
+}
+
+.projects.sekarjagad {
+  .column-project.tall {
+    .page-item {
+      max-width: 33%;
+    }
+  }
+  .column-project.taller {
+    .page-item {
+      max-width: 50%;
+    }
+  }
+}
+
+.projects.rdxcm {
+  .column-project {
+    display: flex;
+    flex-direction: column;
+
+    .page-item {
+      max-width: 100%;
+    }
+  }
+  .column-project.tall {
+    max-width: 33%;
+  }
+  .column-project.taller {
+    max-width: 31%;
+  }
+}
+
+.projects.londonc {
+  padding-left: 30px;
+  padding-right: 30px;
+  .column-project.wide {
+    justify-content: center;
+    .page-item {
+      max-width: 100%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .projects.desktop {
+    display: none;
+  }
+  .projects.mobile {
+    margin-top: 20px;
+    display: flex;
+    gap: 0;
+
+    .column-project {
+      gap: 12px;
+      margin-bottom: 12px;
+      padding-left: 12px;
+      padding-right: 12px;
+      justify-content: center;
+    }
+    .column-project.wide {
+      .page-item {
+        max-width: 94%;
+      }
+    }
+    .column-project.tall {
+      .page-item {
+        max-width: 48%;
+      }
+    }
+    .column-project.sub {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  .projects.inouterspace {
+    .row-project {
+      padding-left: 20px;
+      padding-right: 20px;
+      gap: 12px;
+    }
+    .column-project.wide {
+      align-items: center;
+    }
+    .column-project.tall {
+      max-width: 48%;
+      padding: 0;
+      justify-content: start;
+      gap: 12px;
+      .page-item {
+        max-width: 100%;
+      }
+    }
+  }
+}

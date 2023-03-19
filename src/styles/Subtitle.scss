@@ -1,0 +1,19 @@
+.subtitle{
+  position: fixed;
+  top: 50%;
+  left: 70px;
+  transform: translate(0, -50%);
+
+  p {
+    font-size: 24px;
+    transform: rotate(-90deg);
+    margin: 0;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 768px) {
+  .subtitle {
+    display: none;
+  }
+}
