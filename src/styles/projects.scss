@@ -35,6 +35,18 @@
     flex-direction: row;
     gap: 20px;
   }
+
+  .slider-photos {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .swiper-wrapper-slider {
+      width: 80%;
+    }
+  }
 }
 
 .projects.mobile {

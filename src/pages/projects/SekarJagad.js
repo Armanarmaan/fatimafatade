@@ -1,19 +1,6 @@
 import '../../styles/projects.scss';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-import { useState } from "react";
-import SwiperCore, { FreeMode, Navigation, Thumbs } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/swiper-bundle.min.css";
-import "swiper/swiper.min.css";
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/navigation";
-import "swiper/css/thumbs";
-
-import "../../styles/Swiper.scss";
-
-SwiperCore.use([FreeMode, Navigation, Thumbs]);
 
 function SekarJagad(){
   const imgCover1 = require('../../assets/projects/SekarJagad/1.png');
@@ -21,14 +8,6 @@ function SekarJagad(){
   const imgCover3 = require('../../assets/projects/SekarJagad/3.png');
   const imgCover4 = require('../../assets/projects/SekarJagad/4.png');
   const imgCover7 = require('../../assets/projects/SekarJagad/7.png');
-  const imgCover10 = require('../../assets/projects/SekarJagad/10.jpg');
-  const imgCover11 = require('../../assets/projects/SekarJagad/11.jpg');
-  const imgCover12 = require('../../assets/projects/SekarJagad/12.jpg');
-  const imgCover13 = require('../../assets/projects/SekarJagad/13.jpg');
-  const imgCover14 = require('../../assets/projects/SekarJagad/14.jpg');
-  const imgCover15 = require('../../assets/projects/SekarJagad/15.jpg');
-  const imgCover16 = require('../../assets/projects/SekarJagad/16.jpg');
-  const [thumbsSwiper] = useState(null);
 
   return (
     <div className='fatade-container'>
@@ -94,42 +73,6 @@ function SekarJagad(){
               delayTime={500}
               />
           </div>
-        </div>
-        <p className='title desktop'>Discover...</p>
-        <div className='slider-photos'>
-          <Swiper
-            style={{
-              "--swiper-navigation-color": "#fff",
-              "--swiper-pagination-color": "#fff",
-            }}
-            spaceBetween={10}
-            navigation={true}
-            thumbs={{ swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null }}
-            modules={[FreeMode, Navigation, Thumbs]}
-            className="mySwiper2"
-          >
-            <SwiperSlide>
-              <img src={imgCover10} alt={'slide'}/>
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={imgCover11} alt={'slide'}/>
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={imgCover12} alt={'slide'}/>
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={imgCover13} alt={'slide'}/>
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={imgCover14} alt={'slide'}/>
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={imgCover15} alt={'slide'}/>
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={imgCover16} alt={'slide'}/>
-            </SwiperSlide>
-          </Swiper>
         </div>
       </div>
       <div className='projects mobile inouterspace'>

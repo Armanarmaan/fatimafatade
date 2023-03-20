@@ -27,7 +27,14 @@ function Regain(){
   const imgCover9 = require('../../assets/projects/Regain/9.jpeg');
   const imgCover10 = require('../../assets/projects/Regain/10.jpg');
   const imgCover11 = require('../../assets/projects/Regain/11.jpg');
-  const imgCover12 = require('../../assets/projects/Regain/12.jpg');
+  // const imgCover12 = require('../../assets/projects/Regain/12.jpg');
+  const imgCover13 = require('../../assets/projects/Regain/13.jpeg');
+  const imgCover14 = require('../../assets/projects/Regain/14.jpeg');
+  const imgCover15 = require('../../assets/projects/Regain/15.jpeg');
+  const imgCover16 = require('../../assets/projects/Regain/16.jpeg');
+  const imgCover17 = require('../../assets/projects/Regain/17.jpeg');
+  const imgCover18 = require('../../assets/projects/Regain/18.jpeg');
+  const imgCover19 = require('../../assets/projects/Regain/19.jpeg');
   const [thumbsSwiper] = useState(null);
 
   return (
@@ -162,24 +169,48 @@ function Regain(){
         </div>
         <p className='title desktop'>Discover...</p>
         <div className='slider-photos'>
-          <Swiper
-            style={{
-              "--swiper-navigation-color": "#fff",
-              "--swiper-pagination-color": "#fff",
-            }}
-            spaceBetween={10}
-            navigation={true}
-            thumbs={{ swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null }}
-            modules={[FreeMode, Navigation, Thumbs]}
-            className="mySwiper2"
-          >
-            <SwiperSlide>
-              <img src={imgCover3} alt={'slide'}/>
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={imgCover12} alt={'slide'}/>
-            </SwiperSlide>
-          </Swiper>
+          <div className='swiper-wrapper-slider'>
+            <Swiper
+              style={{
+                "--swiper-navigation-color": "#fff",
+                "--swiper-pagination-color": "#fff",
+              }}
+              spaceBetween={10}
+              navigation={{
+                prevEl: '.swiper-button-prev',
+                nextEl: '.swiper-button-next',
+              }}
+              thumbs={{ swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null }}
+              modules={[FreeMode, Navigation, Thumbs]}
+              className="mySwiper2"
+              speed={1000}
+            >
+              <SwiperSlide>
+                <img src={imgCover17} alt={'slide'}/>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={imgCover18} alt={'slide'}/>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={imgCover19} alt={'slide'}/>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={imgCover13} alt={'slide'}/>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={imgCover14} alt={'slide'}/>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={imgCover15} alt={'slide'}/>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={imgCover16} alt={'slide'}/>
+              </SwiperSlide>
+            </Swiper>
+          </div>
+          
+          <div className="swiper-button-prev"></div>
+          <div className="swiper-button-next"></div>
         </div>
       </div>
       <div className='projects mobile regain'>

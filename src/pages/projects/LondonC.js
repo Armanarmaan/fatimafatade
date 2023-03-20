@@ -1,27 +1,13 @@
 import '../../styles/projects.scss';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-import { useState } from "react";
-import SwiperCore, { FreeMode, Navigation, Thumbs } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/swiper-bundle.min.css";
-import "swiper/swiper.min.css";
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/navigation";
-import "swiper/css/thumbs";
-
-import "../../styles/Swiper.scss";
-
-SwiperCore.use([FreeMode, Navigation, Thumbs]);
 
 function LondonC(){
   const imgCover1 = require('../../assets/projects/LondonC/1.gif');
-  const imgCover2 = require('../../assets/projects/LondonC/2.png');
+  // const imgCover2 = require('../../assets/projects/LondonC/2.png');
   const imgCover3 = require('../../assets/projects/LondonC/3.png');
   const imgCover4 = require('../../assets/projects/LondonC/4.png');
   const imgCover5 = require('../../assets/projects/LondonC/5.png');
-  const [thumbsSwiper] = useState(null);
 
   return (
     <div className='fatade-container'>
@@ -77,27 +63,6 @@ function LondonC(){
               delayTime={500}
               />
           </div>
-        </div>
-        <p className='title desktop'>Discover...</p>
-        <div className='slider-photos'>
-          <Swiper
-            style={{
-              "--swiper-navigation-color": "#fff",
-              "--swiper-pagination-color": "#fff",
-            }}
-            spaceBetween={10}
-            navigation={true}
-            thumbs={{ swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null }}
-            modules={[FreeMode, Navigation, Thumbs]}
-            className="mySwiper2"
-          >
-            <SwiperSlide>
-              <img src={imgCover1} alt={'slide'}/>
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={imgCover2} alt={'slide'}/>
-            </SwiperSlide>
-          </Swiper>
         </div>
       </div>
       <div className='projects mobile regain'>
