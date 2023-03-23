@@ -3,11 +3,11 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
 function SekarJagad(){
-  const imgCover1 = require('../../assets/projects/SekarJagad/1.png');
-  const imgCover2 = require('../../assets/projects/SekarJagad/2.png');
-  const imgCover3 = require('../../assets/projects/SekarJagad/3.png');
-  const imgCover4 = require('../../assets/projects/SekarJagad/4.png');
-  const imgCover7 = require('../../assets/projects/SekarJagad/7.png');
+  const imgCover1 = require('../../assets/projects/SekarJagad/1.jpg');
+  const imgCover2 = require('../../assets/projects/SekarJagad/2.jpg');
+  const imgCover3 = require('../../assets/projects/SekarJagad/3.jpg');
+  const imgCover4 = require('../../assets/projects/SekarJagad/4.jpg');
+  const imgCover5 = require('../../assets/projects/SekarJagad/5.jpg');
 
   return (
     <div className='fatade-container'>
@@ -47,9 +47,9 @@ function SekarJagad(){
             <LazyLoadImage
               alt={'Sekar Jagad'}
               effect="blur"
-              width={imgCover7.width}
-              height={imgCover7.height}
-              src={imgCover7}
+              width={imgCover5.width}
+              height={imgCover5.height}
+              src={imgCover5}
               delayTime={500}
               />
           </div>
@@ -119,9 +119,9 @@ function SekarJagad(){
               <LazyLoadImage
                 alt={'Sekar Jagad'}
                 effect="blur"
-                width={imgCover7.width}
-                height={imgCover7.height}
-                src={imgCover7}
+                width={imgCover5.width}
+                height={imgCover5.height}
+                src={imgCover5}
                 delayTime={500}
                 />
             </div>

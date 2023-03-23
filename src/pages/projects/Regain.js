@@ -16,18 +16,17 @@ import "../../styles/Swiper.scss";
 SwiperCore.use([FreeMode, Navigation, Thumbs]);
 
 function Regain(){
-  const imgCover1 = require('../../assets/projects/Regain/1.jpeg');
-  const imgCover2 = require('../../assets/projects/Regain/2.jpeg');
+  const imgCoverWide = require('../../assets/projects/Regain/wide.jpg');
+  const imgCover1 = require('../../assets/projects/Regain/1.jpg');
+  const imgCover2 = require('../../assets/projects/Regain/2.jpg');
   const imgCover3 = require('../../assets/projects/Regain/3.jpg');
   const imgCover4 = require('../../assets/projects/Regain/4.jpg');
-  const imgCover5 = require('../../assets/projects/Regain/5.jpeg');
-  const imgCover6 = require('../../assets/projects/Regain/6.png');
-  const imgCover7 = require('../../assets/projects/Regain/7.png');
+  const imgCover5 = require('../../assets/projects/Regain/5.jpg');
+  const imgCover6 = require('../../assets/projects/Regain/6.jpg');
+  const imgCover7 = require('../../assets/projects/Regain/7.jpg');
   const imgCover8 = require('../../assets/projects/Regain/8.jpg');
-  const imgCover9 = require('../../assets/projects/Regain/9.jpeg');
+  const imgCover9 = require('../../assets/projects/Regain/9.jpg');
   const imgCover10 = require('../../assets/projects/Regain/10.jpg');
-  const imgCover11 = require('../../assets/projects/Regain/11.jpg');
-  // const imgCover12 = require('../../assets/projects/Regain/12.jpg');
   const imgCover13 = require('../../assets/projects/Regain/13.jpeg');
   const imgCover14 = require('../../assets/projects/Regain/14.jpeg');
   const imgCover15 = require('../../assets/projects/Regain/15.jpeg');
@@ -54,9 +53,9 @@ function Regain(){
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
               effect="blur"
-              width={imgCover3.width}
-              height={imgCover3.height}
-              src={imgCover3}
+              width={imgCoverWide.width}
+              height={imgCoverWide.height}
+              src={imgCoverWide}
               delayTime={500}
               />
           </div>
@@ -76,9 +75,9 @@ function Regain(){
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
               effect="blur"
-              width={imgCover4.width}
-              height={imgCover4.height}
-              src={imgCover4}
+              width={imgCover3.width}
+              height={imgCover3.height}
+              src={imgCover3}
               delayTime={500}
               />
           </div>
@@ -98,12 +97,44 @@ function Regain(){
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
               effect="blur"
+              width={imgCover5.width}
+              height={imgCover5.height}
+              src={imgCover5}
+              delayTime={500}
+              />
+          </div>
+          <div className='page-item'>
+            <LazyLoadImage
+              alt={'Regain F/W Campaign'}
+              effect="blur"
+              width={imgCover8.width}
+              height={imgCover8.height}
+              src={imgCover8}
+              delayTime={500}
+              />
+          </div>
+          <div className='page-item'>
+            <LazyLoadImage
+              alt={'Regain F/W Campaign'}
+              effect="blur"
               width={imgCover6.width}
               height={imgCover6.height}
               src={imgCover6}
               delayTime={500}
               />
           </div>
+          <div className='page-item'>
+            <LazyLoadImage
+              alt={'Regain F/W Campaign'}
+              effect="blur"
+              width={imgCover4.width}
+              height={imgCover4.height}
+              src={imgCover4}
+              delayTime={500}
+              />
+          </div>
+        </div>
+        <div className='column-project taller'>
           <div className='page-item'>
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
@@ -128,41 +159,9 @@ function Regain(){
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
               effect="blur"
-              width={imgCover5.width}
-              height={imgCover5.height}
-              src={imgCover5}
-              delayTime={500}
-              />
-          </div>
-        </div>
-        <div className='column-project taller'>
-          <div className='page-item'>
-            <LazyLoadImage
-              alt={'Regain F/W Campaign'}
-              effect="blur"
               width={imgCover10.width}
               height={imgCover10.height}
               src={imgCover10}
-              delayTime={500}
-              />
-          </div>
-          <div className='page-item'>
-            <LazyLoadImage
-              alt={'Regain F/W Campaign'}
-              effect="blur"
-              width={imgCover8.width}
-              height={imgCover8.height}
-              src={imgCover8}
-              delayTime={500}
-              />
-          </div>
-          <div className='page-item'>
-            <LazyLoadImage
-              alt={'Regain F/W Campaign'}
-              effect="blur"
-              width={imgCover11.width}
-              height={imgCover11.height}
-              src={imgCover11}
               delayTime={500}
               />
           </div>
@@ -219,9 +218,9 @@ function Regain(){
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
               effect="blur"
-              width={imgCover3.width}
-              height={imgCover3.height}
-              src={imgCover3}
+              width={imgCoverWide.width}
+              height={imgCoverWide.height}
+              src={imgCoverWide}
               delayTime={500}
               />
           </div>
@@ -245,9 +244,9 @@ function Regain(){
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
               effect="blur"
-              width={imgCover4.width}
-              height={imgCover4.height}
-              src={imgCover4}
+              width={imgCover3.width}
+              height={imgCover3.height}
+              src={imgCover3}
               delayTime={500}
               />
           </div>
@@ -267,53 +266,9 @@ function Regain(){
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
               effect="blur"
-              width={imgCover6.width}
-              height={imgCover6.height}
-              src={imgCover6}
-              delayTime={500}
-              />
-          </div>
-        </div>
-        <div className='column-project tall'>
-          <div className='page-item'>
-            <LazyLoadImage
-              alt={'Regain F/W Campaign'}
-              effect="blur"
-              width={imgCover9.width}
-              height={imgCover9.height}
-              src={imgCover9}
-              delayTime={500}
-              />
-          </div>
-          <div className='page-item'>
-            <LazyLoadImage
-              alt={'Regain F/W Campaign'}
-              effect="blur"
-              width={imgCover7.width}
-              height={imgCover7.height}
-              src={imgCover7}
-              delayTime={500}
-              />
-          </div>
-        </div>
-        <div className='column-project tall'>
-          <div className='page-item'>
-            <LazyLoadImage
-              alt={'Regain F/W Campaign'}
-              effect="blur"
               width={imgCover5.width}
               height={imgCover5.height}
               src={imgCover5}
-              delayTime={500}
-              />
-          </div>
-          <div className='page-item'>
-            <LazyLoadImage
-              alt={'Regain F/W Campaign'}
-              effect="blur"
-              width={imgCover10.width}
-              height={imgCover10.height}
-              src={imgCover10}
               delayTime={500}
               />
           </div>
@@ -333,9 +288,53 @@ function Regain(){
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
               effect="blur"
-              width={imgCover11.width}
-              height={imgCover11.height}
-              src={imgCover11}
+              width={imgCover6.width}
+              height={imgCover6.height}
+              src={imgCover6}
+              delayTime={500}
+              />
+          </div>
+        </div>
+        <div className='column-project tall'>
+          <div className='page-item'>
+            <LazyLoadImage
+              alt={'Regain F/W Campaign'}
+              effect="blur"
+              width={imgCover4.width}
+              height={imgCover4.height}
+              src={imgCover4}
+              delayTime={500}
+              />
+          </div>
+          <div className='page-item'>
+            <LazyLoadImage
+              alt={'Regain F/W Campaign'}
+              effect="blur"
+              width={imgCover9.width}
+              height={imgCover9.height}
+              src={imgCover9}
+              delayTime={500}
+              />
+          </div>
+        </div>
+        <div className='column-project tall'>
+          <div className='page-item'>
+            <LazyLoadImage
+              alt={'Regain F/W Campaign'}
+              effect="blur"
+              width={imgCover7.width}
+              height={imgCover7.height}
+              src={imgCover7}
+              delayTime={500}
+              />
+          </div>
+          <div className='page-item'>
+            <LazyLoadImage
+              alt={'Regain F/W Campaign'}
+              effect="blur"
+              width={imgCover10.width}
+              height={imgCover10.height}
+              src={imgCover10}
               delayTime={500}
               />
           </div>

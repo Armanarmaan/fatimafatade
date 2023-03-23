@@ -4,9 +4,9 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
 function Personal(){
-  const imgCover1 = require('../assets/projects/Regain/1.jpeg');
+  const imgCover1 = require('../assets/projects/Regain/1.jpg');
   const imgCover2 = require('../assets/projects/EsmodFS/4.JPG');
-  const imgCover3 = require('../assets/projects/SekarJagad/1.png');
+  const imgCover3 = require('../assets/projects/SekarJagad/1.jpg');
   const imgCover4 = require('../assets/projects/LondonC/2.png');
 
   return (
