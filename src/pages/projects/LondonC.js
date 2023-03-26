@@ -14,7 +14,7 @@ function LondonC(){
       <p className='title desktop'>London College of Fashion MA Project</p>
       <p className='title mobile'>LCF MA Project</p>
       <p className='sub-title'>
-        The Indonesian traditional garment using Sekar Jagad collection in CLO3D for Fatima Jannah’s 
+        The Indonesian traditional garment using Sekar Jagad collection in CLO3D for Fatima’s 
         master project which showcased in LCF MA art exhibition x London Fashion Week.
       </p>
       <p className='sub-title m-0 desktop'>Designer: Fatima Jannah</p>

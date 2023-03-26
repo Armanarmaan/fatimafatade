@@ -1,8 +1,8 @@
 import '../../styles/projects.scss';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-import { useState } from "react";
-import SwiperCore, { FreeMode, Navigation, Thumbs } from "swiper";
+import React, { useRef } from "react";
+import SwiperCore, { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
@@ -13,7 +13,7 @@ import "swiper/css/thumbs";
 
 import "../../styles/Swiper.scss";
 
-SwiperCore.use([FreeMode, Navigation, Thumbs]);
+SwiperCore.use([Navigation]);
 
 function Regain(){
   const imgCoverWide = require('../../assets/projects/Regain/wide.jpg');
@@ -34,14 +34,14 @@ function Regain(){
   const imgCover17 = require('../../assets/projects/Regain/17.jpeg');
   const imgCover18 = require('../../assets/projects/Regain/18.jpeg');
   const imgCover19 = require('../../assets/projects/Regain/19.jpeg');
-  const [thumbsSwiper] = useState(null);
+  const swiperRef = useRef(null);
 
   return (
     <div className='fatade-container'>
       <p className='title'>Regain F/W Campaign</p>
       <p className='sub-title'>
-        Inspired by my loved ones who have experienced severe or developmental trauma. 
-        I created this collection by using 5 senses approach – hearing, touch, sight, taste and smell.
+        Inspired by the loved ones who have experienced severe or developmental trauma. 
+        Fatima created this collection by using 5 senses approach – hearing, touch, sight, taste and smell.
       </p>
       <p className='sub-title m-0 desktop'>Designer: Fatima Jannah</p>
       <p className='sub-title m-0 desktop'>Photographer: Zulham Siregar</p>
@@ -165,51 +165,6 @@ function Regain(){
               delayTime={500}
               />
           </div>
-        </div>
-        <p className='title desktop'>Discover...</p>
-        <div className='slider-photos'>
-          <div className='swiper-wrapper-slider'>
-            <Swiper
-              style={{
-                "--swiper-navigation-color": "#fff",
-                "--swiper-pagination-color": "#fff",
-              }}
-              spaceBetween={10}
-              navigation={{
-                prevEl: '.swiper-button-prev',
-                nextEl: '.swiper-button-next',
-              }}
-              thumbs={{ swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null }}
-              modules={[FreeMode, Navigation, Thumbs]}
-              className="mySwiper2"
-              speed={1000}
-            >
-              <SwiperSlide>
-                <img src={imgCover17} alt={'slide'}/>
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={imgCover18} alt={'slide'}/>
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={imgCover19} alt={'slide'}/>
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={imgCover13} alt={'slide'}/>
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={imgCover14} alt={'slide'}/>
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={imgCover15} alt={'slide'}/>
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={imgCover16} alt={'slide'}/>
-              </SwiperSlide>
-            </Swiper>
-          </div>
-          
-          <div className="swiper-button-prev"></div>
-          <div className="swiper-button-next"></div>
         </div>
       </div>
       <div className='projects mobile regain'>
@@ -340,6 +295,48 @@ function Regain(){
           </div>
         </div>
       </div>
+      <div className='slider-section'>
+        <p className='title'>Discover...</p>
+        <div className='slider-photos'>
+          <div className='swiper-wrapper-slider'>
+            <Swiper
+              navigation={{
+                prevEl: '.swiper-button-prev',
+                nextEl: '.swiper-button-next',
+              }}
+              onSwiper={(swiper) => (swiperRef.current = swiper)}
+              className="mySwiper2"
+              speed={1000}
+            >
+              <SwiperSlide>
+                <img src={imgCover17} alt={'slide'}/>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={imgCover18} alt={'slide'}/>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={imgCover19} alt={'slide'}/>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={imgCover13} alt={'slide'}/>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={imgCover14} alt={'slide'}/>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={imgCover15} alt={'slide'}/>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={imgCover16} alt={'slide'}/>
+              </SwiperSlide>
+            </Swiper>
+          </div>
+          
+          <div className="swiper-button-prev"></div>
+          <div className="swiper-button-next"></div>
+        </div>
+      </div>
+      
     </div>
   )
 }

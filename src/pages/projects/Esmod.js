@@ -16,7 +16,7 @@ function Esmod(){
     <div className='fatade-container'>
       <p className='title'>ESMOD Fashion Show</p>
       <p className='sub-title'>
-        ESMOD Jakarta Class of 2019 fashion show, Fatima Jannah presenting Regain F/W collection for the first time to the audience in Kuningan City.
+        ESMOD Jakarta Class of 2019 fashion show, Fatima presenting Regain F/W collection for the first time to the audience in Kuningan City.
       </p>
       <p className='sub-title m-0 desktop'>Designer: Fatima Jannah</p>
       <p className='sub-title m-0 desktop'>Photographer: Hashfi Radifan</p>

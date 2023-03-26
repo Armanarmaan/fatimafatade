@@ -18,7 +18,7 @@ function DarkRomance(){
     <div className='fatade-container'>
       <p className='title'>Dark Romance</p>
       <p className='sub-title'>
-        A vintage inspired style in flattering feminine fit, Fatima Jannah helped the creative and logistic process of ‘Dark Romance’ photoshoot in London for Joy label. 
+        A vintage inspired style in flattering feminine fit, Fatima helped the creative and logistic process of ‘Dark Romance’ photoshoot in London for Joy label. 
       </p>
       <p className='sub-title m-0 desktop'>Photographer: George Ntoumas</p>
       <p className='sub-title m-0 desktop'>Studio Coordinator: Fatima Jannah</p>
