@@ -8,7 +8,7 @@ function RDxCM(){
   const imgCover3 = require('../../assets/projects/RDxCM/3.JPG');
   const imgCover4 = require('../../assets/projects/RDxCM/4.JPG');
   const imgCover5 = require('../../assets/projects/RDxCM/5.JPG');
-  const imgCover6 = require('../../assets/projects/RDxCM/6.JPG');
+  const imgCover6 = require('../../assets/projects/RDxCM/6.jpg');
 
   return (
     <div className='fatade-container'>
