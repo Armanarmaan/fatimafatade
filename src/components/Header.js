@@ -10,16 +10,32 @@ function Header(){
   const imgClose = require('../assets/close.svg').default;
 
   const [showMenu, setShowMenu] = useState(false);
+  const [animationInProgress, setAnimationInProgress] = useState(false);
 
   const handleCloseMenu = () => {
-    $('.slide-to-right').addClass('slide-out');
-    setTimeout(function () {
-      setShowMenu(false);
-    }, 700);
+    if (!animationInProgress) {
+      setAnimationInProgress(true);
+      $('.slide-to-right').addClass('slide-out');
+      setTimeout(function () {
+        setShowMenu(false);
+        setAnimationInProgress(false);
+      }, 700);
+    }
   }
 
   const handleMenu = () => {
-    showMenu ? handleCloseMenu() : setShowMenu(true);
+    if (!animationInProgress) {
+      setAnimationInProgress(true);
+      if (showMenu) {
+        handleCloseMenu();
+      } else {
+        setShowMenu(true);
+        setTimeout(function () {
+          setAnimationInProgress(false);
+        }, 700);
+        
+      }
+    }
   }
 
   return (
@@ -28,7 +44,7 @@ function Header(){
         <img src={imgMenu} alt='menu' />
       </div>
       <div className='logo'>
-        <NavLink exact to={'/'}>
+        <NavLink exact="true" to={'/'}>
           <img src={imgLogo} alt='fatimajannah' />
         </NavLink>
       </div>
@@ -36,27 +52,27 @@ function Header(){
         <p>PORTFOLIO ARCHIVE</p>
       </div>
       <div className='menus'>
-        <NavLink exact activeClassName="active" to={'/'}>
+        <NavLink exact="true" activeclassname="active" to={'/'}>
           <div className='menu-item'>
             <p>ALL PROJECTS</p>
           </div>
         </NavLink>
-        <NavLink exact activeClassName="active" to={'/personal'}>
+        <NavLink exact="true" activeclassname="active" to={'/personal'}>
           <div className='menu-item'>
             <p>PERSONAL</p>
           </div>
         </NavLink>
-        <NavLink exact activeClassName="active" to={'/collaboration'}>
+        <NavLink exact="true" activeclassname="active" to={'/collaboration'}>
           <div className='menu-item'>
             <p>COLLABORATION</p>
           </div>
         </NavLink>
-        <NavLink exact activeClassName="active" to={'/about'}>
+        <NavLink exact="true" activeclassname="active" to={'/about'}>
           <div className='menu-item'>
             <p>ABOUT</p>
           </div>
         </NavLink>
-        <NavLink exact activeClassName="active" to={'/contact'}>
+        <NavLink exact="true" activeclassname="active" to={'/contact'}>
           <div className='menu-item'>
             <p>CONTACT</p>
           </div>
@@ -68,27 +84,27 @@ function Header(){
         </div>
         <Modal.Body>
           <div className='menus-mobile'>
-            <NavLink exact activeClassName="active" to={'/'}>
+            <NavLink exact="true" activeclassname="active" to={'/'}>
               <div className='menu-item' onClick={handleCloseMenu}>
                 <p>ALL PROJECTS</p>
               </div>
             </NavLink>
-            <NavLink exact activeClassName="active" to={'/personal'}>
+            <NavLink exact="true" activeclassname="active" to={'/personal'}>
               <div className='menu-item' onClick={handleCloseMenu}>
                 <p>PERSONAL</p>
               </div>
             </NavLink>
-            <NavLink exact activeClassName="active" to={'/collaboration'}>
+            <NavLink exact="true" activeclassname="active" to={'/collaboration'}>
               <div className='menu-item' onClick={handleCloseMenu}>
                 <p>COLLABORATION</p>
               </div>
             </NavLink>
-            <NavLink exact activeClassName="active" to={'/about'}>
+            <NavLink exact="true" activeclassname="active" to={'/about'}>
               <div className='menu-item' onClick={handleCloseMenu}>
                 <p>ABOUT</p>
               </div>
             </NavLink>
-            <NavLink exact activeClassName="active" to={'/contact'}>
+            <NavLink exact="true" activeclassname="active" to={'/contact'}>
               <div className='menu-item' onClick={handleCloseMenu}>
                 <p>CONTACT</p>
               </div>
