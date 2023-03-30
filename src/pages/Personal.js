@@ -7,7 +7,7 @@ function Personal(){
   const imgCover1 = require('../assets/projects/Regain/1.jpg');
   const imgCover2 = require('../assets/projects/EsmodFS/4.JPG');
   const imgCover3 = require('../assets/projects/SekarJagad/1.jpg');
-  const imgCover4 = require('../assets/projects/LondonC/2.png');
+  const imgCover4 = require('../assets/projects/LondonC/6.png');
 
   return (
     <div className='fatade-container'>

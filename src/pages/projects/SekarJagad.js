@@ -25,6 +25,28 @@ function SekarJagad(){
             <LazyLoadImage
               alt={'Sekar Jagad'}
               effect="blur"
+              width={imgCover1.width}
+              height={imgCover1.height}
+              src={imgCover1}
+              delayTime={500}
+              />
+          </div>
+          <div className='page-item'>
+            <LazyLoadImage
+              alt={'Sekar Jagad'}
+              effect="blur"
+              width={imgCover2.width}
+              height={imgCover2.height}
+              src={imgCover2}
+              delayTime={500}
+              />
+          </div>
+        </div>
+        <div className='column-project tall'>
+          <div className='page-item'>
+            <LazyLoadImage
+              alt={'Sekar Jagad'}
+              effect="blur"
               width={imgCover3.width}
               height={imgCover3.height}
               src={imgCover3}
@@ -41,8 +63,6 @@ function SekarJagad(){
               delayTime={500}
               />
           </div>
-        </div>
-        <div className='column-project tall'>
           <div className='page-item'>
             <LazyLoadImage
               alt={'Sekar Jagad'}
@@ -50,26 +70,6 @@ function SekarJagad(){
               width={imgCover5.width}
               height={imgCover5.height}
               src={imgCover5}
-              delayTime={500}
-              />
-          </div>
-          <div className='page-item'>
-            <LazyLoadImage
-              alt={'Sekar Jagad'}
-              effect="blur"
-              width={imgCover2.width}
-              height={imgCover2.height}
-              src={imgCover2}
-              delayTime={500}
-              />
-          </div>
-          <div className='page-item'>
-            <LazyLoadImage
-              alt={'Sekar Jagad'}
-              effect="blur"
-              width={imgCover1.width}
-              height={imgCover1.height}
-              src={imgCover1}
               delayTime={500}
               />
           </div>
@@ -81,9 +81,9 @@ function SekarJagad(){
             <LazyLoadImage
               alt={'Sekar Jagad'}
               effect="blur"
-              width={imgCover3.width}
-              height={imgCover3.height}
-              src={imgCover3}
+              width={imgCover1.width}
+              height={imgCover1.height}
+              src={imgCover1}
               delayTime={500}
               />
           </div>
@@ -97,9 +97,9 @@ function SekarJagad(){
               <LazyLoadImage
                 alt={'Sekar Jagad'}
                 effect="blur"
-                width={imgCover4.width}
-                height={imgCover4.height}
-                src={imgCover4}
+                width={imgCover2.width}
+                height={imgCover2.height}
+                src={imgCover2}
                 delayTime={500}
                 />
             </div>
@@ -107,9 +107,9 @@ function SekarJagad(){
               <LazyLoadImage
                 alt={'Sekar Jagad'}
                 effect="blur"
-                width={imgCover2.width}
-                height={imgCover2.height}
-                src={imgCover2}
+                width={imgCover4.width}
+                height={imgCover4.height}
+                src={imgCover4}
                 delayTime={500}
                 />
             </div>
@@ -119,9 +119,9 @@ function SekarJagad(){
               <LazyLoadImage
                 alt={'Sekar Jagad'}
                 effect="blur"
-                width={imgCover5.width}
-                height={imgCover5.height}
-                src={imgCover5}
+                width={imgCover3.width}
+                height={imgCover3.height}
+                src={imgCover3}
                 delayTime={500}
                 />
             </div>
@@ -129,9 +129,9 @@ function SekarJagad(){
               <LazyLoadImage
                 alt={'Sekar Jagad'}
                 effect="blur"
-                width={imgCover1.width}
-                height={imgCover1.height}
-                src={imgCover1}
+                width={imgCover5.width}
+                height={imgCover5.height}
+                src={imgCover5}
                 delayTime={500}
                 />
             </div>
