@@ -16,12 +16,15 @@ function Header(){
     setTimeout(function () {
       setShowMenu(false);
     }, 700);
+  }
 
+  const handleMenu = () => {
+    showMenu ? handleCloseMenu() : setShowMenu(true);
   }
 
   return (
     <div className='header'>
-      <div className='menu-btn' onClick={() => setShowMenu(true)}>
+      <div className='menu-btn' onClick={() => handleMenu(true)}>
         <img src={imgMenu} alt='menu' />
       </div>
       <div className='logo'>
