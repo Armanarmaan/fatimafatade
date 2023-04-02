@@ -1,6 +1,5 @@
 import '../../styles/projects.scss';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
 import React, { useRef } from "react";
 import SwiperCore, { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -52,7 +51,7 @@ function Regain(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCoverWide.width}
               height={imgCoverWide.height}
               src={imgCoverWide}
@@ -64,7 +63,7 @@ function Regain(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover1.width}
               height={imgCover1.height}
               src={imgCover1}
@@ -74,7 +73,7 @@ function Regain(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover3.width}
               height={imgCover3.height}
               src={imgCover3}
@@ -84,7 +83,7 @@ function Regain(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover2.width}
               height={imgCover2.height}
               src={imgCover2}
@@ -96,7 +95,7 @@ function Regain(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover5.width}
               height={imgCover5.height}
               src={imgCover5}
@@ -106,7 +105,7 @@ function Regain(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover8.width}
               height={imgCover8.height}
               src={imgCover8}
@@ -116,7 +115,7 @@ function Regain(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover6.width}
               height={imgCover6.height}
               src={imgCover6}
@@ -126,7 +125,7 @@ function Regain(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover4.width}
               height={imgCover4.height}
               src={imgCover4}
@@ -138,7 +137,7 @@ function Regain(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover9.width}
               height={imgCover9.height}
               src={imgCover9}
@@ -148,7 +147,7 @@ function Regain(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover7.width}
               height={imgCover7.height}
               src={imgCover7}
@@ -158,7 +157,7 @@ function Regain(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover10.width}
               height={imgCover10.height}
               src={imgCover10}
@@ -172,7 +171,7 @@ function Regain(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCoverWide.width}
               height={imgCoverWide.height}
               src={imgCoverWide}
@@ -188,7 +187,7 @@ function Regain(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover1.width}
               height={imgCover1.height}
               src={imgCover1}
@@ -198,7 +197,7 @@ function Regain(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover3.width}
               height={imgCover3.height}
               src={imgCover3}
@@ -210,7 +209,7 @@ function Regain(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover2.width}
               height={imgCover2.height}
               src={imgCover2}
@@ -220,7 +219,7 @@ function Regain(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover5.width}
               height={imgCover5.height}
               src={imgCover5}
@@ -232,7 +231,7 @@ function Regain(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover8.width}
               height={imgCover8.height}
               src={imgCover8}
@@ -242,7 +241,7 @@ function Regain(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover6.width}
               height={imgCover6.height}
               src={imgCover6}
@@ -254,7 +253,7 @@ function Regain(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover4.width}
               height={imgCover4.height}
               src={imgCover4}
@@ -264,7 +263,7 @@ function Regain(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover9.width}
               height={imgCover9.height}
               src={imgCover9}
@@ -276,7 +275,7 @@ function Regain(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover7.width}
               height={imgCover7.height}
               src={imgCover7}
@@ -286,7 +285,7 @@ function Regain(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'Regain F/W Campaign'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover10.width}
               height={imgCover10.height}
               src={imgCover10}

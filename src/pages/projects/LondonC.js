@@ -1,6 +1,5 @@
 import '../../styles/projects.scss';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
 
 function LondonC(){
   const imgCover1 = require('../../assets/projects/LondonC/1.gif');
@@ -24,7 +23,7 @@ function LondonC(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'London College of Fashion MA Project'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover1.width}
               height={imgCover1.height}
               src={imgCover1}
@@ -36,7 +35,7 @@ function LondonC(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'London College of Fashion MA Project'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover3.width}
               height={imgCover3.height}
               src={imgCover3}
@@ -46,7 +45,7 @@ function LondonC(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'London College of Fashion MA Project'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover4.width}
               height={imgCover4.height}
               src={imgCover4}
@@ -56,7 +55,7 @@ function LondonC(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'London College of Fashion MA Project'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover5.width}
               height={imgCover5.height}
               src={imgCover5}
@@ -70,7 +69,7 @@ function LondonC(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'London College of Fashion MA Project'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover1.width}
               height={imgCover1.height}
               src={imgCover1}
@@ -84,7 +83,7 @@ function LondonC(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'London College of Fashion MA Project'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover3.width}
               height={imgCover3.height}
               src={imgCover3}
@@ -96,7 +95,7 @@ function LondonC(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'London College of Fashion MA Project'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover4.width}
               height={imgCover4.height}
               src={imgCover4}
@@ -108,7 +107,7 @@ function LondonC(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'London College of Fashion MA Project'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover5.width}
               height={imgCover5.height}
               src={imgCover5}

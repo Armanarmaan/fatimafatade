@@ -1,7 +1,6 @@
 import '../styles/Home.scss';
 import { Link } from 'react-router-dom';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
 
 function Personal(){
   const imgCover1 = require('../assets/projects/Regain/1.jpg');
@@ -18,7 +17,7 @@ function Personal(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'Regain F/W Campaign'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover1.width}
                 height={imgCover1.height}
                 src={imgCover1}
@@ -36,7 +35,7 @@ function Personal(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'ESMOD Fashion Show'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover2.width}
                 height={imgCover2.height}
                 src={imgCover2}
@@ -54,7 +53,7 @@ function Personal(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'Sekar Jagad'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover3.width}
                 height={imgCover3.height}
                 src={imgCover3}
@@ -72,7 +71,7 @@ function Personal(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'London College of Fashion MA Project'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover4.width}
                 height={imgCover4.height}
                 src={imgCover4}
@@ -92,7 +91,7 @@ function Personal(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'Regain F/W Campaign'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover1.width}
                 height={imgCover1.height}
                 src={imgCover1}
@@ -107,7 +106,7 @@ function Personal(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'Sekar Jagad'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover3.width}
                 height={imgCover3.height}
                 src={imgCover3}
@@ -124,7 +123,7 @@ function Personal(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'ESMOD Fashion Show'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover2.width}
                 height={imgCover2.height}
                 src={imgCover2}
@@ -139,7 +138,7 @@ function Personal(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'London College of Fashion MA Project'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover4.width}
                 height={imgCover4.height}
                 src={imgCover4}

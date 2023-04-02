@@ -1,7 +1,6 @@
 import '../styles/Home.scss';
 import { Link } from 'react-router-dom';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
 
 function Collab(){
   const imgCover1 = require('../assets/projects/InOuterSp/8.jpeg');
@@ -17,7 +16,7 @@ function Collab(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'In Outer Space'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover1.width}
                 height={imgCover1.height}
                 src={imgCover1}
@@ -33,7 +32,7 @@ function Collab(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'Dark Romance'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover2.width}
                 height={imgCover2.height}
                 src={imgCover2}
@@ -51,7 +50,7 @@ function Collab(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'Roger Danuarta x Cut Meyriska'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover3.width}
                 height={imgCover3.height}
                 src={imgCover3}
@@ -71,7 +70,7 @@ function Collab(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'In Outer Space'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover1.width}
                 height={imgCover1.height}
                 src={imgCover1}
@@ -86,7 +85,7 @@ function Collab(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'Roger Danuarta x Cut Meyriska'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover3.width}
                 height={imgCover3.height}
                 src={imgCover3}
@@ -101,7 +100,7 @@ function Collab(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'Dark Romance'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover2.width}
                 height={imgCover2.height}
                 src={imgCover2}

@@ -1,7 +1,6 @@
 import '../styles/Home.scss';
 import { Link } from 'react-router-dom';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
 
 function Home(){
   const imgCover1 = require('../assets/projects/Regain/1.jpg');
@@ -20,7 +19,7 @@ function Home(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'Regain F/W Campaign'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover1.width}
                 height={imgCover1.height}
                 src={imgCover1}
@@ -36,7 +35,7 @@ function Home(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'Sekar Jagad'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover2.width}
                 height={imgCover2.height}
                 src={imgCover2}
@@ -54,7 +53,7 @@ function Home(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'In Outer Space'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover3.width}
                 height={imgCover3.height}
                 src={imgCover3}
@@ -70,7 +69,7 @@ function Home(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'Dark Romance'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover4.width}
                 height={imgCover4.height}
                 src={imgCover4}
@@ -86,7 +85,7 @@ function Home(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'Roger Danuarta x Cut Meyriska'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover5.width}
                 height={imgCover5.height}
                 src={imgCover5}
@@ -104,7 +103,7 @@ function Home(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'ESMOD Fashion Show'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover6.width}
                 height={imgCover6.height}
                 src={imgCover6}
@@ -120,7 +119,7 @@ function Home(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'London College of Fashion MA Project'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover7.width}
                 height={imgCover7.height}
                 src={imgCover7}
@@ -140,7 +139,7 @@ function Home(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'Regain F/W Campaign'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover1.width}
                 height={imgCover1.height}
                 src={imgCover1}
@@ -155,7 +154,7 @@ function Home(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'Sekar Jagad'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover2.width}
                 height={imgCover2.height}
                 src={imgCover2}
@@ -170,7 +169,7 @@ function Home(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'ESMOD Fashion Show'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover6.width}
                 height={imgCover6.height}
                 src={imgCover6}
@@ -187,7 +186,7 @@ function Home(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'In Outer Space'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover3.width}
                 height={imgCover3.height}
                 src={imgCover3}
@@ -202,7 +201,7 @@ function Home(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'Dark Romance'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover4.width}
                 height={imgCover4.height}
                 src={imgCover4}
@@ -217,7 +216,7 @@ function Home(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'Roger Danuarta x Cut Meyriska'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover5.width}
                 height={imgCover5.height}
                 src={imgCover5}
@@ -232,7 +231,7 @@ function Home(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'London College of Fashion MA Project'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover7.width}
                 height={imgCover7.height}
                 src={imgCover7}

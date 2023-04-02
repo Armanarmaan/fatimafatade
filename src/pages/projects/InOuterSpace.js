@@ -1,6 +1,5 @@
 import '../../styles/projects.scss';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
 
 function InOuterSpace(){
   const imgCover1 = require('../../assets/projects/InOuterSp/1.jpeg');
@@ -29,7 +28,7 @@ function InOuterSpace(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'In Outer Space'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover8.width}
               height={imgCover8.height}
               src={imgCover8}
@@ -42,7 +41,7 @@ function InOuterSpace(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'In Outer Space'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover2.width}
                 height={imgCover2.height}
                 src={imgCover2}
@@ -52,7 +51,7 @@ function InOuterSpace(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'In Outer Space'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover7.width}
                 height={imgCover7.height}
                 src={imgCover7}
@@ -62,7 +61,7 @@ function InOuterSpace(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'In Outer Space'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover9.width}
                 height={imgCover9.height}
                 src={imgCover9}
@@ -74,7 +73,7 @@ function InOuterSpace(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'In Outer Space'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover1.width}
                 height={imgCover1.height}
                 src={imgCover1}
@@ -84,7 +83,7 @@ function InOuterSpace(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'In Outer Space'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover3.width}
                 height={imgCover3.height}
                 src={imgCover3}
@@ -94,7 +93,7 @@ function InOuterSpace(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'In Outer Space'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover4.width}
                 height={imgCover4.height}
                 src={imgCover4}
@@ -106,7 +105,7 @@ function InOuterSpace(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'In Outer Space'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover10.width}
                 height={imgCover10.height}
                 src={imgCover10}
@@ -116,7 +115,7 @@ function InOuterSpace(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'In Outer Space'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover6.width}
                 height={imgCover6.height}
                 src={imgCover6}
@@ -126,7 +125,7 @@ function InOuterSpace(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'In Outer Space'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover5.width}
                 height={imgCover5.height}
                 src={imgCover5}
@@ -141,7 +140,7 @@ function InOuterSpace(){
           <div className='page-item'>
             <LazyLoadImage
               alt={'In Outer Space'}
-              effect="blur"
+              effect="blackAndWhite"
               width={imgCover8.width}
               height={imgCover8.height}
               src={imgCover8}
@@ -158,7 +157,7 @@ function InOuterSpace(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'In Outer Space'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover2.width}
                 height={imgCover2.height}
                 src={imgCover2}
@@ -168,7 +167,7 @@ function InOuterSpace(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'In Outer Space'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover1.width}
                 height={imgCover1.height}
                 src={imgCover1}
@@ -178,7 +177,7 @@ function InOuterSpace(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'In Outer Space'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover7.width}
                 height={imgCover7.height}
                 src={imgCover7}
@@ -188,7 +187,7 @@ function InOuterSpace(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'In Outer Space'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover9.width}
                 height={imgCover9.height}
                 src={imgCover9}
@@ -198,7 +197,7 @@ function InOuterSpace(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'In Outer Space'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover6.width}
                 height={imgCover6.height}
                 src={imgCover6}
@@ -210,7 +209,7 @@ function InOuterSpace(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'In Outer Space'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover10.width}
                 height={imgCover10.height}
                 src={imgCover10}
@@ -220,7 +219,7 @@ function InOuterSpace(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'In Outer Space'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover3.width}
                 height={imgCover3.height}
                 src={imgCover3}
@@ -230,7 +229,7 @@ function InOuterSpace(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'In Outer Space'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover4.width}
                 height={imgCover4.height}
                 src={imgCover4}
@@ -240,7 +239,7 @@ function InOuterSpace(){
             <div className='page-item'>
               <LazyLoadImage
                 alt={'In Outer Space'}
-                effect="blur"
+                effect="blackAndWhite"
                 width={imgCover5.width}
                 height={imgCover5.height}
                 src={imgCover5}
