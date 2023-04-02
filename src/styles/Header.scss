@@ -72,12 +72,13 @@
   animation-duration: 0.8s;
 }
 @keyframes slide-animate {
-  0% {left: -100vh;}
-  100% {left: 0;}
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(0); }
 }
+
 @keyframes slide-animate-out {
-  0% {left: 0;}
-  100% {left: -100vh;}
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
 }
 
 @media (max-width: 768px) {
@@ -139,7 +140,6 @@
   #ModalMenu {
     position: fixed;
     background-color: #fff;
-    box-shadow: 18px 0px 18px #888888;
 
     .close-btn {
       width: 24px;

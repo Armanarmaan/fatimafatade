@@ -299,6 +299,7 @@ function Regain(){
         <div className='slider-photos'>
           <div className='swiper-wrapper-slider'>
             <Swiper
+              loop={true}
               navigation={{
                 prevEl: '.swiper-button-prev',
                 nextEl: '.swiper-button-next',
